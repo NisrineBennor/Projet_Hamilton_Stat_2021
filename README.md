@@ -2,9 +2,9 @@
 
 Dans une étude d’épidémiologie clinique, 146 patients déprimés ont été évalués à J0 (début du traitement), J4, J7, J14, J21, J28, J42 et J56, à l’aide de deux outils : un outil d’hétéro- évaluation (échelle de dépression de Hamilton ou HDRS) ; et un outil d’auto-évaluation (SCL 90 pour Symptom distress Check-List de 90 items).
 Le jeu de données étudié est composé de 3 fichiers csv :
-o Un fichier séparant les patients en deux groupes hommes et femmes (groupe 1 et groupe0), c’est l’outils groupe.
-o Un fichier de données sur les résultats de l’hétéro-évaluation (échelle de Hamilton HDRS) pour chaque visite : c’est l’outils hrds de 1967 modifié à 17 questions (HDRS- 17), cette échelle est issue d’un questionnaire à choix multiples, mesurant la sévérité des symptômes associées à la dépression, le clinicien opte pour l’une des réponses des 3 à 5 réponses proposés en examinant son malade, ces réponses sont classées par ordre croissant de sévérité.
-o Et un fichier de données sur les résultats de l’auto-évaluation (SCL 90 R) pour chaque visite : « outils autoeval ». Comme son nom l’indique, cette échelle comporte 90 descriptions courtes des plaintes et symptômes du patient.
+* Un fichier séparant les patients en deux groupes hommes et femmes (groupe 1 et groupe0), c’est l’outils groupe.
+* Un fichier de données sur les résultats de l’hétéro-évaluation (échelle de Hamilton HDRS) pour chaque visite : c’est l’outils hrds de 1967 modifié à 17 questions (HDRS- 17), cette échelle est issue d’un questionnaire à choix multiples, mesurant la sévérité des symptômes associées à la dépression, le clinicien opte pour l’une des réponses des 3 à 5 réponses proposés en examinant son malade, ces réponses sont classées par ordre croissant de sévérité.
+* Et un fichier de données sur les résultats de l’auto-évaluation (SCL 90 R) pour chaque visite : « outils autoeval ». Comme son nom l’indique, cette échelle comporte 90 descriptions courtes des plaintes et symptômes du patient.
 
 L’objectif de ce travail est de déterminer si les patients du groupe 1 répondent mieux au traitement que les patients du groupe 0, d’après l’échelle de dépression de Hamilton qui est évaluée dans le temps sur plusieurs consultations, ces consultations ont été programmées à l’avance à J0.
 
