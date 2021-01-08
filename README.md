@@ -8,19 +8,17 @@ Le jeu de données étudié est composé de 3 fichiers csv :
 
 L’objectif de ce travail est de déterminer si les patients du groupe 1 répondent mieux au traitement que les patients du groupe 0, d’après l’échelle de dépression de Hamilton qui est évaluée dans le temps sur plusieurs consultations, ces consultations ont été programmées à l’avance à J0.
 
-Après une revalidation rapide de l’échelle de dépression de Hamilton, des analyses sont
-effectuées afin de déterminer l’impact du groupe dans la réponse au traitement.
+Après une revalidation rapide de l’échelle de dépression de Hamilton, des analyses sont effectuées afin de déterminer l’impact du groupe dans la réponse au traitement.
 La revalidation de l’échelle de dépression de Hamilton (HDRS) a été réalisée sur les scores des temps J0 et J56.
 Après une analyse descriptive du jeu de données, la structure dimensionnelle de l’échelle a été étudiée par des diagrammes de valeurs propres et des analyses factorielles. La consistance interne a été évaluée par le calcul des coefficients de Cronbach.
 Enfin, la validité concourante de l’échelle a été appréciée à l’aide de corrélations avec un autre score (SCL 90 R : score d’autoévaluation) et d’une analyse en composante principale focalisée.
 L’impact du groupe dans la réponse au traitement à partir du score de l’échelle de Hamilton a été évalué selon trois approches successives :
-o Par une approche LOCF (Last Observation Carried Forward),
-o Puis par un modèle mixte,
-o Et enfin, en considérant le critère binaire censuré « réponse au traitement »
-défini par une chute de 50% à l’échelle de Hamilton par rapport à J0 (début de traitement).
+* Par une approche LOCF (Last Observation Carried Forward),
+* Puis par un modèle mixte,
+* Et enfin, en considérant le critère binaire censuré « réponse au traitement » défini par une chute de 50% à l’échelle de Hamilton par rapport à J0 (début de traitement).
 Toutes les analyses statistiques ont été réalisées avec le logiciel R. studio (version1.0.16).
 
 
 
-Pour mieux comprendre les techniques et voir les résultats obtenus, veuillez lire le fichier pdf
+**Pour mieux comprendre les techniques et voir les résultats obtenus, veuillez lire le fichier pdf**
   
